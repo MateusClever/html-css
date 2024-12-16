@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu responsivo</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
     <header>
         <h1>Meu Site</h1>
-        <menu>
+        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="itens">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Nossa História</a></li>
@@ -29,5 +31,14 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quisquam eligendi soluta perspiciatis fuga rem in sequi aperiam odio, doloremque nisi quis saepe. Quibusdam temporibus quisquam soluta quaerat a molestias<p>
             </article>
         </main>
+<script>
+    function clickMenu(){
+        if (itens.style.display == 'block') {
+            itens.style.display = 'none'
+        } else {
+            itens.style.display ='block'
+        }
+    }
+</script>
 </body>
 </html>
