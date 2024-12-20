@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexiblle</title>
+    <style>
+        div.conteiner{
+            background-color: salmon;
+            display: flex;
+            flex-flow: row nowrap;
+        }
+        div.item{
+            background-color: blueviolet;
+            border: 1px solid skyblue;
+           text-align: center;
+           flex-basis: 400px; 
+        }
+        div#cxA{
+            flex-grow: 0;
+            flex-shrink: 1;
+        }
+        div#cxB{
+            flex-grow: 0;
+            flex-shrink:1 ;
+        }
+        div#cxC{
+            flex-grow: 0;
+            flex-shrink:1 ;
+        }
+        div#cxD{
+            flex-grow: 0;
+            flex-shrink: 1;
+        }
+        div#cxE{
+            flex-grow: 2;
+            flex-shrink: 0;
+        }
+        div#cxF{
+            flex-grow: 0;
+            flex-shrink: 1;
+        }
+        div#cxG{
+            flex-grow: 0;
+            flex-shrink: 1;
+        }
+        div#cxH{
+            flex-grow: 1;
+            flex-shrink: 2;
+        }
+        div#cxI{
+            flex-grow: 1;
+            flex-shrink: 2;
+        }
+    </style>
+</head>
+<body>
+    <h2>flexbox</h2>
+    
+    <div class="conteiner">
+        <div class="item" id="cxA">A</div>
+        <div class="item" id="cxB">B</div>
+        <div class="item" id="cxC">C</div>
+       
+    </div>
+    <h2>flexbox</h2>
+   
+    <div class="conteiner">
+        <div class="item" id="cxD">D</div>
+        <div class="item" id="cxE">E</div>
+        <div class="item" id="cxF">F</div>
+    </div>
+    <h2>flexbox</h2>
+    
+    <div class="conteiner">
+        <div class="item" id="cxG">G</div>
+        <div class="item" id="cxH">H</div>
+        <div class="item" id="cxI">I</div>
+       
+    </div>
+</body>
+</html>
