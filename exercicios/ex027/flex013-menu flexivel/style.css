@@ -1,0 +1,40 @@
+@charset "UTF_8";
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: lightcoral;
+    font-size: 1em;
+    height: 100vh;
+    width: 100vw;
+}
+header{
+    background-color: lightpink;
+    color: white;
+    padding: 10px;
+}
+header > h1{
+    border: 1px dotted white;
+}
+header > nav {
+    border: 1px dotted white;
+    margin: 10px;
+    padding: 10px;
+}
+main{
+    background-color: white;
+    color: lightpink;
+    margin: 15px;
+    padding: 15px;
+    box-shadow: 2px 1px black;
+    border-radius: 10px;
+    
+}
+main > h1{
+    color: black;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
